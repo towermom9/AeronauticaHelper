@@ -31,13 +31,25 @@ AutoPilot allows you to AFK full job cycles by:
 It currently supports select routes between airports that allow straight-line navigation.
 <details><summary>🌍 Supported Routes</summary>
 
-- **Leovetsk ⇄ Auchenburgh**  
-- **Leovetsk ⇄ Tierdam**  
-- **Nordspyd ⇄ Tenera Palm**
-- **Nordspyd ⇄ Norman**
-- **Norman ⇄ Auchenburgh**
+**Long-Haul:**
+- Leovetsk ⇄ Tikaranto
+- Leovetsk ⇄ Auchenburgh
+- Eisenhardt Municipal ⇄ Tikaranto
+- Eisenhardt Municipal ⇄ Auchenburgh
+- Nordspyd ⇄ Norman
+- Nordspyd ⇄ Udyanapura
+- Kapa ⇄ Hipe
+- Umibutsu ⇄ Hipe
 
-More to come. Suggest more via [@sskipr](https://discord.gg/3adphMca)!
+**Express:**
+- Leovetsk ⇄ Kitesboro
+- Rawaki ⇄ Harden
+- Rawaki ⇄ Amaras
+
+
+<img width="1075" height="1084" alt="v3 5Routes" src="https://github.com/user-attachments/assets/5627426f-04a0-4502-917b-a2d25ad204f2" />
+
+
 
 </details>
 
