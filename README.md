@@ -151,21 +151,6 @@ Or from your code editor (IDLE, VS Code, etc.)
 
 ---
 
-## ⚙️ Configuration & Optimization Tips
-
-- Quite a few vehicles cannot complete these AutoPilot missions. Please check routes before using AutoPilot; this tool is mainly intended for late-game players. Hoping to address this soon!
-- Set Graphics Quality to the LOWEST for better OCR clarity.
-- 1.5–2x UI Scale in Aeronautica settings.
-- If stuff simply isn't working properly, try restarting.
-- A Webhook must be set up for alerts. Use a private Discord channel with notifications enabled.
-- Use the default key binds and metrics: A, D, Z, Knots, and Nautical Miles.
-- Adjust TURNING MULTIPLIER (~0.3–2.0) based on your vehicle’s agility.
-- Use servers with higher multipliers, then rejoin a new server to start AFK.
-- Full screen ROBLOX.
-- If multiple monitors are present, set monitor settings to duplicate each other.
-
----
-
 ## 🆕 Version 3.5 Highlights
 - 💥 Airship AutoPilot
   - With customizable Altitude & Fuel Percentage
@@ -180,13 +165,13 @@ Or from your code editor (IDLE, VS Code, etc.)
 - 🔁 AutoRejoin now handles Roblox crashes
 - 👋 AeroHelper minimizes after starting
 - ⛽ Low fuel warning
-- ↔️ Auscultation detection and warning (leeway check)
+- ↔️ Auscultation detection and warning
 - ℹ️ New UI
 - 📢 Feedback to Developer
 - 🤚 Need Help button
 - 📰 Issues & News
 - ❌ AutoPilot incorrect lobby alert
-- ⚠️ Need Help redirect (<<-- LINK THIS)
+- ⚠️ [Need Help](https://aeronautica-helper.vercel.app/help) redirect
 - 🔢 Decimals now work in the UI
 - ➕ And more!
 
