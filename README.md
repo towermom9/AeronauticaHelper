@@ -1,3 +1,5 @@
+# THIS IS A FORK OF AeroHelper THAT REMOVES ALL OF TELEMETRY DATA THAT WAS BEING SENT TO THE ORIGINAL DEV's SERVER
+
 ⚠️ **AeroHelper has (probably) reached its end of life support. Thank you guys so much for everything. 🫡**
 
 
