@@ -1267,6 +1267,10 @@ class AeroHelperApp(QWidget):
             self.timer.stop()
             self.countdown_timer.stop()
             
+            if hasattr(self, 'main_logic_thread') and self.main_logic_thread.isRunning():
+                self.main_logic_thread.terminate()
+                self.main_logic_thread.wait()
+            
             if self.autopilot_mode and self.autopilot_thread and self.autopilot_thread.isRunning():
                 self.autopilot_thread.terminate()
                 self.autopilot_thread.wait()
@@ -1404,6 +1408,9 @@ class AeroHelperApp(QWidget):
             self.timer.start(self.cycle_interval)
             logging.info("[!] AeroHelper " + ("started" if self.previous_distance is None else "resumed") + ".")
             alert("[*] AeroHelper " + ("started" if self.previous_distance is None else "resumed") + ".", include_screenshot=False)
+            if self.previous_distance is not None:
+                self.run_AeroHelper_Logic()
+
 
         except ValueError as e:
             error_msg = "Invalid number format. Please check your inputs."
